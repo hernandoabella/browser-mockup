@@ -1,0 +1,29 @@
+#browserMockup {
+    width: 500px;
+    height: 400px; /* Aumenta la altura para acomodar el header */
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden; /* Para ocultar el exceso de altura */
+}
+
+#browserHeader {
+    width: 100%;
+    height: 60px; /* Ajusta la altura de tu header según tus necesidades */
+    background-color: #3498db; /* Color de fondo del header */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#mockupImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Escalar la imagen para ajustarse al div */
+}
+
+#downloadButton {
+    display: block;
+    margin-top: 10px;
+}
